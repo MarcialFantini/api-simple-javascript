@@ -4,42 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
 </head>
 <body>
-    <div class="container-all">
-        <header class="header-container" >
-    
-            <ul class="menu">
-                <li class="menu-item"><a href="index.html" >inicio</a></li>
-                <li class="menu-item"><a href="#" >sobre</a></li>
-                <li class="menu-item"><a href="api.html" >Api</a></li>
-            </ul>
-    
-        </header>
+    <div class="container mt-4 shadow-lg p3 mb-5 bg-body rounded">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>EMAIL</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+                
+            </tbody>
 
-        <div class="container-imagen">
-            <img src="./img/Home-page.jpg" class="portada" alt="">
-        </div>
-
-        <div class="container-content">
-            <div class="container-text">
-
-            </div>
-            <div class="container-aside">
-
-            </div>
-        </div>
-
-        <div class="container-footer">
-            
-            <img src="./img/Home-page.jpg" alt="">
-            <p></p>
-        </div>
+        </table>
 
     </div>
 
+    <template id = "template" >
+       <tr><td></td><td></td><td></td></tr>
+    </template>
 
     <script src="./script.js"></script>
 </body>
